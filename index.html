@@ -23,9 +23,7 @@
 
   </head>
 
-  <body>
-
-  <nav class="navbar navbar-expand-sm bg-transparent navbar-light" id="mainNav">
+  <nav class="navbar navbar-expand-sm bg-white navbar-light" id="mainNav">
     <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger">
         <img src="rocket_emoji.png" alt="Logo" style="width:40px;"> 
@@ -55,17 +53,19 @@
     </div>
   </nav>
 
+  <body>
+
   <!--Opening Page-->
 
   <header class="opening_page">
     <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
             <br><br>
-            <h1>Selamat Datang!</h1>
+            <h1>Selamat datang!</h1>
             <br>
             Welcome to my personal website!
             <br>
-            Feel free to have a look!
+            Feel free to explore!
             <br><br>
             <a class="btn btn-primary js-scroll-trigger" href="#about">Explore the site</a>
         </div>
@@ -75,7 +75,7 @@
   <!--About-->
   <section class="about-section" id="about">
     <div class="container-fluid p-5 my-5 border" id="about">
-      <h1>Hello, world!</h1>
+      <h1 class="mx-auto text-center">Hello, world!</h1>
       <p>
         <br>
         😊 Howdy, y'all! The name's Irfan, how ya doin'? Here's a sneak peek about what I do!
@@ -95,7 +95,72 @@
 
   <!--Projects-->
 
-
+  <section class="projects-section" id="projects">
+    <div class="container-fluid p-5 my-5 border" id="projects">
+      <h1 class="mx-auto text-center">Projects</h1>
+      <div id="contentCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner d-block w-100">
+          <div class="carousel-item active">
+            <p>
+            <br>
+            <h3>Prototype for IoT Forensic Evidence Storage and Retrieval on IPFS</h3>
+            <br>
+            <h5>University of Technology Sydney · Nov 20, 2023</h5>
+            <br>
+            This research presents a new prototype that utilizes the InterPlanetary File System (IPFS) 
+            for the purpose of securely managing forensic evidence. The decentralized structure of the InterPlanetary File System (IPFS) 
+            effectively tackles the issues associated with centralization, hence strengthening the integrity and accountability of digital 
+            artifacts' chain of custody. The prototype used a Raspberry Pi device to effectively acquire and analyze /var/log/auth.log files, 
+            therefore showcasing the functionality of capturing, securely storing, and retrieving forensic data on IPFS. 
+            The prototype utilizes IPFS to guarantee the immutability of data, its availability, and efficient removal of redundancy. 
+            This research showcases the potential to enhance the reliability of forensic data management in a way that is both technically 
+            competent and complies with legal requirements. This research is supervised by Dr. Xu Wang.
+            <br>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <p>
+            <br>
+            <h3>Memory Forensics: Automated Random Access Memory Data Acquisition and Analysis for Digital Forensics Investigation</h3>
+            <br>
+            <h5>University of Technology Sydney · Oct 20, 2023</h5>
+            <br>
+            This research develops a technique that is able to do Data Acquisition from a Random Access Memory (RAM) to help prosecutors 
+            in doing data acquisition thus can conduct analysis from a certain evidence. This technique is in the shape of a Python script, 
+            utilizing WinPMem for dump file creation from the RAM, and Volatility 3 to access the dump file for further analysis. Research is 
+            co-authored by Ying-Yi Wang and Tajmim H. Purnata.
+            <br>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <p>
+            <br>
+            <h3>Automated Data Acquisition of NTFS and FAT File System for Digital Forensics</h3>
+            <br>
+            <h5>Universitas Gadjah Mada (UGM) · Jan 24, 2020</h5>
+            <br>
+            This research emphasizes on an automated data acquisition on two types of file systems, namely NTFS and FAT, which includes a handful 
+            of processes that was based on digital forensic procedures. The program will run on Debian-based Linux. The automated data acquisition 
+            program is written in Python programming language by importing the necessary libraries and utilities. A case brief is simulated for this program. 
+            The results show that the program was able to do data acquisition. The program was able to acquire data from a storage. The program was also able 
+            to view files, directories and hidden file available within a storage. This research is supervised by Prof. Dr.techn. Ahmad Ashari, M.Kom.
+            <br>
+            </p>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#contentCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#contentCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+      </div>
+    </div>
+  </section>
 
   <!--Expertise-->
 
@@ -125,7 +190,7 @@
   <footer class="footer bg-white small text-center">
     <div class="container class="mx-auto text-center">
       <br><br>
-      Made in 2024 with ❤️, by the man himself.
+      Made in 2024 with ❤️, by the website owner himself.
       <br><br>
     </div>
   </footer>
