@@ -25,30 +25,30 @@
 
   <body id="page-top">
 
-  <nav class="navbar navbar-expand-sm bg-transparent navbar-light fixed-top" id="mainNav">
-    <div class="container">
+  <nav class="navbar navbar-expand-sm bg-transparent navbar-light sticky-top" id="mainNav">
+    <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <img src="rocket_emoji.png" alt="Logo" style="width:40px;"> 
       </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle Navigation">
-        <i class="fas fa-bars"></i>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link active js-scroll-trigger" aria-current="page" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link active js-scroll-trigger" aria-current="page" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#expertise">Expertise</a>
+            <a class="nav-link active js-scroll-trigger" aria-current="page" href="#expertise">Expertise</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+            <a class="nav-link active js-scroll-trigger" aria-current="page" href="#resume">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link active js-scroll-trigger" aria-current="page" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -60,6 +60,7 @@
   <header class="opening_page">
     <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
+            <br><br>
             <h1>Selamat Datang!</h1>
             <br>
             Welcome to my personal website!
@@ -108,8 +109,10 @@
 
   <section class="contact-section bg-white" id="contact">
     <div class="container align-items-center">
+      <div class="mx-auto text-center">
       <h1>Wanna do some collaboration?</h1>
       <p>Click the buttons below!</p>
+      <div>
       <div class="social d-flex justify-content-center">
         <a class="mx-2" href="https://medium.com/@irfandey"><i class="fab fa-medium"></i></a>
         <a class="mx-2" href="https://github.com/irfandey"><i class="fab fa-github"></i></a>
@@ -119,9 +122,11 @@
   </section>
 
   <!-- Footer-->
-  <footer class="footer bg-white small text-center text-white-50">
-    <div class="container align-items-center">
+  <footer class="footer bg-white small text-center">
+    <div class="container class="mx-auto text-center">
+      <br><br>
       Made in 2024 with ❤️, by the man himself.
+      <br><br>
     </div>
   </footer>
 
