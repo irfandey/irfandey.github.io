@@ -20,14 +20,22 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="styles.css" rel="stylesheet" />
 
+     <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+      <source src="abstract_neon.mp4" type="video/mp4">
+    </video>
+
     <style>
-      body {
-        background-image: url('abstract_neon.mp4');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
       }
-      </style>
+    </style>
+
+     
 
   </head>
 
